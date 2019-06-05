@@ -6,8 +6,15 @@
 
   <groupId>com.joe</groupId>
   <artifactId>base-project</artifactId>
-  <version>1.0-SNAPSHOT</version>
-  <name>base-project</name>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+
+    <modules>
+        <module>base-utils</module>
+        <module>alipay-module</module>
+        <module>weixin-module</module>
+    </modules>
+    <name>base-project</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
